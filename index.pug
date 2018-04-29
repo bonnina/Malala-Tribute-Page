@@ -1,0 +1,44 @@
+doctype html 
+html 
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" href="style.css")
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+  body
+    .container-fluid
+     .p1.text-center
+        pre#top-line.text-justify  a girl who was not afraid
+        h1 Malala Yousafzai
+        h4 “When the whole world is silent, even one voice becomes powerful.”
+        img.img-responsive(src="https://i0.wp.com/richtopia.com/wp-content/uploads/2015/04/Malala-Yousafzai.jpg?resize=990%2C619&ssl=1")
+        h5.text-center a Pakistani activist for female education and the youngest Nobel Prize laureate.
+     .p2.text-justify
+        h3 Malala's life facts
+        mixin par(text)
+          p= text
+        +par("She was born on 12 July 1997 in northwest Pakistan, where the local Taliban had at times banned girls from attending school.")
+        +par("Her family came to run a chain of schools in the region. And she was particularly inspired by her father's thoughts and humanitarian work.")
+          br
+        +par("In early 2009, when she was 11–12, she wrote a blog under a pseudonym for the BBC Urdu detailing her life during the Taliban occupation of Swat. The following summer, journalist Adam B. Ellick made a New York Times documentary about her life as the Pakistani military intervened in the region  and she was nominated for the International Children's Peace Prize.")
+          br
+        +par("Yousafzai was injured on 9 October 2012 by a Taliban gunman when he attempted to murder her. She remained unconscious and in critical condition at the Rawalpindi Institute of Cardiology, but later her condition improved enough for her to be sent to the Queen Elizabeth Hospital in Birmingham, UK. The murder attempt sparked a national and international outpouring of support for Yousafzai.")
+          br
+        p Since recovering, Yousafzai became a 
+          | prominent education activist. Based out of 
+          | Birmingham, she founded the 
+          a(href="https://www.malala.org/"): em Malala Fund
+      
+          | , a non-profit, and in 2013 co-authored 
+          a(href="https://www.readanybook.com/online/565316"): em I am Malala 
+          | , an international bestseller. In 2015, 
+          | Yousafzai was a subject of the Oscar-
+          | shortlisted documentary He Named Me Malala. 
+          br
+        +par("In 2012, she was the recipient of Pakistan's first National Youth Peace Prize and the 2013 Sakharov Prize. In 2014, she was announced as the co-recipient of the 2014 Nobel Peace Prize, along with Kailash Satyarthi, for her struggle against the suppression of children and young people and for the right of all children to education. Aged 17 at the time, she became the youngest-ever Nobel Prize laureate.")
+     .p3
+        p To learn more about Malala you may visit a
+         button.btn.btn-default
+          span.glyphicon.glyphicon-search 
+          a(href="https://en.wikipedia.org/wiki/Malala_Yousafzai")  Wikipedia page.
+        br
+        p#quote “Education is neither eastern nor western. Education is education and it's the right of every human being.” ― Malala Yousafzai
